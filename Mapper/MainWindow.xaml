@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mapper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="450">
+        Title="Mapper" Height="400" Width="400">
     <Border>
         <DockPanel>
             <TextBlock x:Name="title" DockPanel.Dock="Top" Text="Mapper" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
