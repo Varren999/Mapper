@@ -1,0 +1,16 @@
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.csproj.AssemblyReference.cache
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\MainWindow.g.cs
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\App.g.cs
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper_MarkupCompile.cache
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper_MarkupCompile.lref
+C:\Users\123\source\repos\Mapper\Mapper\bin\Debug\Mapper.exe.config
+C:\Users\123\source\repos\Mapper\Mapper\bin\Debug\Mapper.exe
+C:\Users\123\source\repos\Mapper\Mapper\bin\Debug\Mapper.pdb
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\MainWindow.baml
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.g.resources
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.Properties.Resources.resources
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.csproj.GenerateResource.cache
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.csproj.CoreCompileInputs.cache
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.csproj.Up2Date
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.exe
+C:\Users\123\source\repos\Mapper\Mapper\obj\Debug\Mapper.pdb
