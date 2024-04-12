@@ -5,41 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mapper"
         mc:Ignorable="d"
-        Title="Mapper" Height="400" Width="400">
-    <Border>
+        Title="Mapper" Height="400" Width="400" WindowStyle="ToolWindow">
+    <Border Background="DarkGray">
         <StackPanel>
             <TextBlock x:Name="title" Text="Mapper" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <StackPanel>
-                <TextBlock HorizontalAlignment="Center">
-                    <Label Content="Начало Диапазона" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,100,0"/>
-                    <Label Content="Конец Диапазона" FontSize="12" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-                </TextBlock>
-            </StackPanel>
-            <StackPanel>
-                <TextBlock HorizontalAlignment="Center">
-                    <TextBox x:Name="tbStart1" MinWidth="100" FontSize="14" Margin="5,5,110,5" TextAlignment="Center" Text="0"/>
-                    <TextBox x:Name="tbStop1" MinWidth="100" FontSize="14" Margin="5" TextAlignment="Center" Text="0"/>
-                </TextBlock>
-            </StackPanel>
+            <TextBlock HorizontalAlignment="Center">
+                <Label Content="Начало Диапазона" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,100,0"/>
+                <Label Content="Конец Диапазона" FontSize="12" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                <TextBox x:Name="tbStart1" MinWidth="100" FontSize="14" Margin="5,5,110,5" TextAlignment="Center" Text="0"/>
+                <TextBox x:Name="tbStop1" MinWidth="100" FontSize="14" Margin="5" TextAlignment="Center" Text="0"/>
+            </TextBlock>
             <Label Content="Значение" FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox x:Name="tbValueToMap" MaxWidth="100" FontSize="14" Margin="5" TextAlignment="Center" Text="0"/>
             <Label Content="Результат"  FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox x:Name="tbResult" MaxWidth="100" FontSize="14" Margin="5" TextAlignment="Center" Text="0"/>
-            <StackPanel>
-                <TextBlock HorizontalAlignment="Center">
-                    <Label Content="Начало Диапазона"  FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,100,0"/>
-                    <Label Content="Конец Диапазона"  FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </TextBlock>
-            </StackPanel>
-            <StackPanel>
-                <TextBlock HorizontalAlignment="Center">
-                    <TextBox x:Name="tbStart2" MinWidth="100" FontSize="14" Margin="5,5,110,5" TextAlignment="Center" Text="0"/>
-                    <TextBox x:Name="tbStop2" MinWidth="100" FontSize="14" Margin="5" TextAlignment="Center" Text="0"/>
-                </TextBlock>
-            </StackPanel>
-            
-            <Button x:Name="bMaping" DockPanel.Dock="Bottom" Content="Map" Margin="100 20 100 20"  FontSize="20" FontWeight="Bold" Click="bMaping_Click"/>
+            <TextBlock HorizontalAlignment="Center">
+                <Label Content="Начало Диапазона"  FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,100,0"/>
+                <Label Content="Конец Диапазона"  FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                <TextBox x:Name="tbStart2" MinWidth="100" FontSize="14" Margin="5,5,110,5" TextAlignment="Center" Text="0"/>
+                <TextBox x:Name="tbStop2" MinWidth="100" FontSize="14" Margin="5" TextAlignment="Center" Text="0"/>
+            </TextBlock>
+            <Button x:Name="bMaping" Content="Map" Margin="100 20 100 20"  FontSize="20" FontWeight="Bold" Click="bMaping_Click"/>
         </StackPanel>
-
     </Border>
 </Window>
